@@ -1,0 +1,33 @@
+{
+    "cSpell.enabledLanguageIds": [
+        "c",
+        "cmake",
+        "cmake-cache",
+        "cpp",
+        "csharp",
+        "diff",
+        "git-commit",
+        "git-rebase",
+        "go",
+        "haskell",
+        "html",
+        "idris",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "rust",
+        "tex",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ],
+    "cSpell.words": [
+        "tuples"
+    ]
+}

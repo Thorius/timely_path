@@ -1,0 +1,28 @@
+[package]
+name = "timely-path"
+description = "Example path finding algorithms in timely dataflow and differential dataflow."
+version = "0.1.0"
+authors = ["Stefan Ivanov <ivanov.st94@gmail.com>"]
+license = "MIT"
+edition = "2018"
+
+[lib]
+name = "graph_utility"
+path = "src/graph_utility.rs"
+
+[dependencies]
+# Serialization libraries used by timely and differential dataflow.
+# Some public API-s are required for both, thus the dependency.
+serde = "1.0"
+serde_derive = "1.0"
+abomonation = "0.7"
+abomonation_derive = "0.5"
+# The Timely dataflow library
+timely="0.11"
+# The differential dataflow library
+differential-dataflow="0.11"
+# Random number generation facilities.
+rand = "0.7"
+rand_chacha = "0.2"
+# A library for baseline computations
+petgraph = "0.5"

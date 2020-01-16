@@ -1,4 +1,8 @@
-# 
+# Graph specification.
+# Comments begin with a # symbol.
+# All other lines are interpreted as edges.
+# An edge is a line with only two white space separated integers.
+# Edges are directional, meaning that for an unordered graph, one add the directed edge in the opposite direction explicitly.
 # FromNode  ToNode
 0   1
 1   0
